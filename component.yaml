@@ -1,2 +1,4 @@
 name: Deploy Model group 5
-image: image-registry.openshift-image-registry.svc:5000/group5/ibm-deploy-model-git@sha256:d17d623c867238d62ea440f5f502ee1d0a0f10092d5e98abe5fb8d540aa05da0:latest 
+implementation:
+  container:
+    image:image-registry.openshift-image-registry.svc:5000/group5/ibm-deploy-model-git@sha256:d17d623c867238d62ea440f5f502ee1d0a0f10092d5e98abe5fb8d540aa05da0:latest  
